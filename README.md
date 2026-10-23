@@ -2,8 +2,6 @@
 
 **AI-Powered Business Data Analyst**
 
-> Upload your business data and turn spreadsheets into actionable insights.
-
 InsightAI is a Streamlit dashboard that turns a raw CSV or Excel export into
 KPIs, charts, trend detection, and (optionally) AI-generated business
 insights, an "Ask Your Data" chat, recommendations, and an executive report —
@@ -11,7 +9,8 @@ all runnable locally, for free.
 
 ![screenshot placeholder](screenshots/overview.png)
 ![screenshot placeholder](screenshots/charts.png)
-![screenshot placeholder](screenshots/ai-insights.png)
+![screenshot placeholder](screenshots/report1.png)
+![screenshot placeholder](screenshots/report2.png)
 
 ---
 
@@ -103,10 +102,6 @@ pip install -r requirements.txt
 copy .env.example .env
 ```
 
-Then open `.env` and add your free Gemini API key:
-
-```
-GEMINI_API_KEY=your_api_key_here
 ```
 
 Get a free key (no credit card required) from
@@ -265,8 +260,5 @@ python tests/test_core.py
 
 ## 👤 Author
 
-_Your name here_
+Yash Shengale
 
-## 📜 License
-
-_Add a license of your choice (e.g. MIT) before publishing publicly._
